@@ -1,4 +1,4 @@
-// WAP to Print Numbers from 1 to n
+// WAP to Print First n Even Numbers
 #include <iostream>
 using namespace std;
 
@@ -7,13 +7,12 @@ int main() {
     cin >> n;
 
     for(int i=1;i<=n;i++)
-        cout << i << " ";
+        cout << 2*i << " ";
 
     return 0;
 }
 
-
-// WAP to Print Numbers from n to 1
+// WAP to Print First n Odd Numbers
 #include <iostream>
 using namespace std;
 
@@ -21,8 +20,9 @@ int main() {
     int n;
     cin >> n;
 
-    for(int i=n;i>=1;i--)
-        cout << i << " ";
+    for(int i=1;i<=n;i++)
+        cout << 2*i-1 << " ";
 
     return 0;
 }
+
